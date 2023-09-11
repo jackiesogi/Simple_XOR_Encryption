@@ -1,8 +1,7 @@
-![](/images/demo.jpg.png)
 
 # Simple XOR Encryption 
 
----
+![](/images/demo.jpg.png)
 
 ## About
 * Simple XOR Encryption is a command line tool to encrypt files that contains confidential information (files, images, videos...etc).
