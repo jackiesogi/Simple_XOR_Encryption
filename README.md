@@ -24,8 +24,9 @@ git clone https://github.com/jackiesogi/Simple_XOR_Encryption.git
    * /src/open.cpp line 44, 45.
 4. Compile the source code using g++
 ```sh
-g++ -std=c++17 -Wall ./src/open.cpp -o ./bin/open
-g++ -std=c++17 -Wall ./src/close.cpp -o ./bin/close
+cd ./Simple_XOR_Encryption/ && mkdir ./bin
+g++ -std=c++20 -Wall ./src/open.cpp -o ./bin/open
+g++ -std=c++20 -Wall ./src/close.cpp -o ./bin/close
 ```
 5. Put the ./bin/open and ./bin/close to the directory you want to encrypt, or set a environment variable by modifying the `~/.bashrc` or other shell environment configuration file you're using. 
 
